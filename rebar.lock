@@ -1,0 +1,12 @@
+[{<<"log">>,
+  {git,"https://github.com/joq62/log.git",
+       {ref,"cfc8232fb788447f35b1b442b0cf5b58d694bcf9"}},
+  0},
+ {<<"resource_discovery">>,
+  {git,"https://github.com/joq62/resource_discovery.git",
+       {ref,"4b7fbdafe351e7723b2b7fe6f12c165e59d05fa6"}},
+  0},
+ {<<"zigbee_devices">>,
+  {git,"https://github.com/joq62/zigbee_devices.git",
+       {ref,"caab4106231d691ef57147102d3a65d46302cfb1"}},
+  0}].

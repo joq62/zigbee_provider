@@ -1,0 +1,10 @@
+{application,rd,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{rd_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[heartbeat,rd,rd_app,rd_store,rd_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
