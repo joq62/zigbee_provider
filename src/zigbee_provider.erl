@@ -86,13 +86,7 @@ ping()->
 	  ignore.
 init([]) ->
   
-    application:start(log),
-    LocalLogDir=atom_to_list(node())++".logs",
-    ok=rpc:call(node(),log,create_logger,[?MainLogDir,LocalLogDir,?LogFile,?MaxNumFiles,?MaxNumBytes],5000),
-    timer:sleep(5000),
-    
-    ok=application:start(rd),
-    ok=application:start(zigbee_devices),
+    application:start(zigbee_devices),
 
     ?LOG_NOTICE("Server started ",[]),
     
