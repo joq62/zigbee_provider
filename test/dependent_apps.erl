@@ -1,0 +1,1 @@
+../../../dev_support/dependent_apps.erl

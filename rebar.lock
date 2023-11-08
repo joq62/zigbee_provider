@@ -8,5 +8,5 @@
   0},
  {<<"zigbee_devices">>,
   {git,"https://github.com/joq62/zigbee_devices.git",
-       {ref,"caab4106231d691ef57147102d3a65d46302cfb1"}},
+       {ref,"f7c71f8b0bfff548ceafe7aa482aeb0e8ef5553d"}},
   0}].
